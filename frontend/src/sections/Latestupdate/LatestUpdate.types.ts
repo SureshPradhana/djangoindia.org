@@ -1,4 +1,4 @@
-export type NewsletterForm = {
+export interface NewsletterForm {
   name: string
   email: string
 }
